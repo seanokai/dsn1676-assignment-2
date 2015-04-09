@@ -76,3 +76,11 @@ html {
   transition: all 9s linear;
   transform-origin: 50% calc(100% - 8px);
 }
+
+#clock:target .hand-hour {
+  transform: rotate(360deg);
+}
+
+#clock:target .hand-minute {
+  transform: rotate(4320deg);
+}
