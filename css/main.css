@@ -33,6 +33,7 @@ html {
 
   background-color: green;
   border-radius: 50%;
+  /*transition= property  length  time */
   transition: all 500ms linear;
 
   color: #fff;
@@ -57,4 +58,21 @@ html {
   width: 300px;
 
   background: transparent url("../img/clock-face.svg") no-repeat center center;
+}
+
+.center{
+	bottom: calc(50% - 14px);
+	left: calc(50% - 14px);
+	position: absolute;
+	width: 28px;
+}
+
+.hand {
+  bottom: calc(50% - 8px);
+  left: calc(50% - 7px);
+  position: absolute;
+  width: 14px;
+
+  transition: all 9s linear;
+  transform-origin: 50% calc(100% - 8px);
 }
