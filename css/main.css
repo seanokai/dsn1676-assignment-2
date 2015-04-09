@@ -49,3 +49,12 @@ html {
 .btn-backwards {
   background-color: red;
 }
+
+.clock-face {
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  width: 300px;
+
+  background: transparent url("../img/clock-face.svg") no-repeat center center;
+}
