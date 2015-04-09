@@ -17,3 +17,11 @@ html {
   font: normal 100%/1.5 sans-serif;
   color: #fff;
 }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.main {
+	text-align: inherit;
+}
