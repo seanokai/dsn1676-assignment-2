@@ -23,7 +23,7 @@ html {
 }
 
 .main {
-	text-align: inherit;
+	text-align: center;
 }
 
 .btn {
@@ -52,10 +52,12 @@ html {
 }
 
 .clock-face {
-  height: 500px;
-  margin: 5 auto;
+	/* changed height from 300px to 260px to make it rounded like a pentax watch */
+  height: 260px;
+  margin: 0 auto;
   position: relative;
-  width: 300px;
+  /* changed width from 300px to 260px to make it rounded like a pentax watch */
+  width: 260px;
 
   background: transparent url("../img/clock-face.svg") no-repeat center center;
 }
